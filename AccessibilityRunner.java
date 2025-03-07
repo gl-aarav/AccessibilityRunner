@@ -36,7 +36,6 @@ class Accessibility extends JPanel implements KeyListener, MouseListener
 		fontSize = 12;
 		addKeyListener(this);
 		addMouseListener(this);
-		setFocusable(true);
 	}
 
 	public void drawRectanglesWithLabels(Graphics g)

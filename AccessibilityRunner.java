@@ -96,7 +96,7 @@ class Accessibility extends JPanel implements KeyListener, MouseListener
 
 	public void mousePressed(MouseEvent evt) 
 	{
-		requestFocus();
+		requestFocusInWindow();
 	}
 
 	public void mouseClicked(MouseEvent evt)
